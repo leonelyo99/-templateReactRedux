@@ -7,6 +7,12 @@ It is a small project in React. With the idea that it will use as a template for
 
 The libraries used in the project are `react-redux`, `redux`, `redux-thunk`.
 
+## My recommendations
+I use to recommend hooks, to manipulate the global state, if your version of react have this. If not, you can use mapDispatch or mapDispatchToProps.
+
+* useSelector() to select the state, you want
+* useDispatch() to shoot the actions 
+
 ## Available Scripts
 
 In the project directory, you can run:
